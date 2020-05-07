@@ -13,11 +13,9 @@
     height: 640px;
     border: 30px solid transparent;
     border-image: url(../img/board.jpg)  30 / 30px stretch;
-    background: /*repeating-linear-gradient(45deg, #2D0C0C, #2D0C0C 10px, #F2E998 10px,
-    #F2E998 20px),*/ 
-    conic-gradient(#D2B48C 0.25turn, #800000 0.25turn 0.5turn, #D2B48C 0.5turn 0.75turn, #800000 0.75turn)
-    top left / 25% 25% repeat;
-    /*background-size: 160px 160px;*/
+    background:   
+    conic-gradient(#D2B48C 0.25turn, #2A0A0A 0.25turn 0.5turn, #D2B48C 0.5turn 0.75turn, #2A0A0A 0.75turn)
+top left / 25% 25% repeat;
 }
 
 .black {
@@ -27,7 +25,7 @@
     border-radius: 50%;
     /*margin-left: 15px;
     margin-top: 15px;*/
-    background: radial-gradient(circle closest-side at 43px 43px, #2E2E2E 5px, #848484  20px, #2E2E2E  1px, #848484  30px)
+    background: radial-gradient(circle closest-side, #2E2E2E 5px, #848484  20px, #2E2E2E  1px, #848484  30px)
 }
 
 .wite {
@@ -35,7 +33,7 @@
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    background: radial-gradient(circle at 123px 597px closest-side, #BDBDBD  5px, white 20px, #BDBDBD 1px, white 30px);
+    background: radial-gradient(circle  closest-side, #BDBDBD  5px, white 20px, #BDBDBD 1px, white 30px);
 }  
    
    
