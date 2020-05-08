@@ -23,9 +23,6 @@ repeating-linear-gradient(20deg, #D27318 0, #D26711 10px, #BF4E0F 20px, #D26711 
 
 .black {
     display: block;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
     background-image:
 radial-gradient(circle at 75% 25%, #272626 15px, #555454 23px, #272626 30px, #383838 39px, transparent 40px),
 radial-gradient(circle at 25% 75%, #272626 15px, #555454 23px, #272626 30px, #383838 39px, transparent 40px);
@@ -38,9 +35,6 @@ radial-gradient(circle at 25% 75%, #272626 15px, #555454 23px, #272626 30px, #38
 .wite {
     display: block;
     margin-top: 160px;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
     background-image:
 radial-gradient(circle at 75% 25%, #FFFFFF  15px, #808080 23px, #FFFFFF  30px, #C0C0C0 39px, transparent 40px),
 radial-gradient(circle at 25% 75%, #FFFFFF  15px, #808080 23px, #FFFFFF  30px, #C0C0C0 39px, transparent 40px);
